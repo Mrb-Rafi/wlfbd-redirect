@@ -1,0 +1,8 @@
+services:
+  - name: wlfbd-redirect
+    type: web
+    env: docker
+    repo: https://github.com/yourusername/wlfbd-redirect
+    branch: main
+    plan: free
+    autoDeploy: true
